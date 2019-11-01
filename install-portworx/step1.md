@@ -4,14 +4,14 @@ We will begin with a quick tour of the lab environment. This lab consists of a t
 
 # Check the K8s Status
 
-kubectl get nodes {{execute}}
+`kubectl get nodes` {{execute}}
 
 
 # Check the k8s version
 
-kubectl version {{execute}}
+`kubectl version` {{execute}}
 
 
 # k8 Cluster Info
 
-kubectl cluster-info {{execute}}
+`kubectl cluster-info` {{execute}}
