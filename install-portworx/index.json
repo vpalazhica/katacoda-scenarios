@@ -8,6 +8,7 @@
       {
         "title": "Explore the Lab Environment",
         "text": "step1.md"
+	"verify": "step-1-verify.sh"
       },
       {
         "title": "Step 2",
