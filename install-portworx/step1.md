@@ -4,16 +4,16 @@ We will begin with a quick tour of the lab environment. This lab consists of a m
 
 # Check the K8s Status
 
-`kubectl get nodes`{{execute}}
-
 <pre>
 Q1: How many master nodes do you see in the cluster?<< 
 === 1
 </pre>
 
-# Check the k8s version
+Hint:
+`kubectl get nodes`{{execute}}
 
-`kubectl version`{{execute}}
+
+# Check the k8s version
 
 <pre>
 Q2: What is the version of Kubernetes installed in this environment?<< 
@@ -22,33 +22,58 @@ Q2: What is the version of Kubernetes installed in this environment?<<
 [] 1.16
 </pre>
 
+Hint:
+`kubectl version`{{execute}}
+
 
 # k8 Cluster Info
-
-`kubectl cluster-info`{{execute}}
 
 <pre>
 Q3: What port is the kube-apiserver running on?<< 
 === 6443
 </pre>
 
+Hint:
+`kubectl cluster-info`{{execute}}
+
 
 # Pods in the default namespace
 
-`kubectl get pods`{{execute}}
-
 <pre>
 Q4: Are there any pods running on the default name space?<< 
-(*) Yes 
-() No
+() Yes 
+(*) No
 </pre>
+
+Hint:
+`kubectl get pods`{{execute}}
 
 
 # Kube DNS
 
-`kubectl -n kube-system get pod -l kube-dns`{{execute}}
-
 <pre>
 Q5: What is the name of the dns deployment in the cluster?<< 
-=~= coredns
+() kube-dns 
+(*) coredns
+() kube-dns
+
+Q6: How many replicas are configured for this deployment?<<
+(*) 2
+() 4
+() 1
 </pre>
+
+Hint:
+`kubectl -n kube-system get deployments -l k8s-app=kube-dns`{{execute}}
+
+# Portworx
+
+<pre>
+Q7. Is portworx currently installed on this cluster?<<
+() Yes
+() No
+</pre>
+
+Hint: Check if you see any objects with the name / label called portworx in the cluster.
+`kubectl get all --all-namespaces | grep -i portworx`{{execute}}
+
