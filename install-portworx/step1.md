@@ -56,7 +56,9 @@ Q5: What is the name of the dns deployment in the cluster?<<
 () kube-dns 
 (*) coredns
 () kube-dns
+</pre>
 
+<pre>
 Q6: How many replicas are configured for this deployment?<<
 (*) 2
 () 4
