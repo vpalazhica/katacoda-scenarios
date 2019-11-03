@@ -18,8 +18,8 @@ Hint:
 <pre>
 >>Q2: What is the version of Kubernetes installed in this environment?<< 
 (*) 1.13.0 
-() 1.14 
-() 1.16
+() 1.14 .1
+() 1.16.2
 </pre>
 
 Hint:
@@ -72,10 +72,11 @@ Hint:
 
 <pre>
 >>Q7. Is portworx currently installed on this cluster?<<
-() Yes
+(*) Yes
 () No
 </pre>
 
-Hint: Check if you see any objects with the name / label called portworx in the cluster.
+Hint: 
+Check if you see any objects with the name / label called portworx in the cluster.
 `kubectl get all --all-namespaces | grep -i portworx`{{execute}}
 
