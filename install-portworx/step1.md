@@ -54,8 +54,8 @@ Hint:
 
 # Portworx
 >>Q7. Is portworx currently installed on this cluster? <<
-(*) Yes
-() No
+() Yes
+(*) No
 
 Hint: 
 `kubectl get all --all-namespaces | grep -i portworx`{{execute}}
