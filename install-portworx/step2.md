@@ -1,17 +1,11 @@
-Welcome to the very first Lab!
+Now that we are familiar with the environment, lets install portworx! The first step is to deploy a dedicated KVDB in this environment. 
 
-We will begin with a quick tour of the lab environment. This lab consists of a two node kubernetes cluster which has been deployed exclusively for you. This is a sandbox environment. Feel free to play around. The lab session will expire in 60 minutes.
+The KVDB can be built-in / portworx managed for small clusters OR we can set up our own.  For this lab, lets set up a 3 node ETCD Cluster in this k8s environment.
 
-# Check the K8s Status
+Note: A sample etcd deployent manifest file is already provided in the default directory on the master.
 
-`kubectl get nodes`{{execute}}
-
-
-# Check the k8s version
-
-`kubectl version`{{execute}}
+# Inspect the ETCD deployment config file and deploy the ETCD cluster. 
+Replicas: 3
+image: gcr.io/etcd
 
 
-# k8 Cluster Info
-
-`kubectl cluster-info`{{execute}}
