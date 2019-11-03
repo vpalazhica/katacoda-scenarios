@@ -16,7 +16,7 @@ Hint:
 # Check the k8s version
 
 <pre>
->>Q2: What is the version of Kubernetes installed in this environment?<< 
+>>Q2: What is the version of Kubernetes installed in this environment? << 
 (*) 1.13.0 
 () 1.14 .1
 () 1.16.2
@@ -40,7 +40,7 @@ Hint:
 # Pods in the default namespace
 
 <pre>
->>Q4: Are there any pods running on the default name space?<< 
+>>Q4: Are there any pods running on the default name space? << 
 () Yes 
 (*) No
 </pre>
@@ -52,14 +52,14 @@ Hint:
 # Kube DNS
 
 <pre>
->>Q5: What is the name of the dns deployment in the cluster?<< 
+>>Q5: What is the name of the dns deployment in the cluster? << 
 () kube-dns 
 (*) coredns
-() kube-dns
+() kube-dnskubernetes-cluster-4node-running
 </pre>
 
 <pre>
->>Q6: How many replicas are configured for this deployment?<<
+>>Q6: How many replicas are configured for this deployment? <<
 (*) 2
 () 4
 () 1
@@ -71,7 +71,7 @@ Hint:
 # Portworx
 
 <pre>
->>Q7. Is portworx currently installed on this cluster?<<
+>>Q7. Is portworx currently installed on this cluster? <<
 (*) Yes
 () No
 </pre>
