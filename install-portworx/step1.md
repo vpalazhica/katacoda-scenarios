@@ -6,40 +6,49 @@ We will begin with a quick tour of the lab environment. This lab consists of a m
 
 `kubectl get nodes`{{execute}}
 
->>Q1: How many master nodes do you see in the cluster? << 
+<pre>
+Q1: How many master nodes do you see in the cluster?<< 
 === 1
-
+</pre>
 
 # Check the k8s version
 
 `kubectl version`{{execute}}
 
->>Q2: What is the version of Kubernetes installed in this environment? <<
-[*] 1.11.3 
-[ ] 1.14 
-[ ] 1.16
+<pre>
+Q2: What is the version of Kubernetes installed in this environment?<< 
+[*] 1.13.0 
+[] 1.14 
+[] 1.16
+</pre>
 
 
 # k8 Cluster Info
 
 `kubectl cluster-info`{{execute}}
 
->>Q3: What port is the kube-apiserver running on? << 
+<pre>
+Q3: What port is the kube-apiserver running on?<< 
 === 6443
+</pre>
 
 
 # Pods in the default namespace
 
 `kubectl get pods`{{execute}}
 
->>Q4: Are there any pods running on the default name space? <<
+<pre>
+Q4: Are there any pods running on the default name space?<< 
 (*) Yes 
 () No
+</pre>
 
 
 # Kube DNS
 
-`kubectl -n kube-system get deployment coredns`{{execute}}
+`kubectl -n kube-system get pod -l kube-dns`{{execute}}
 
->>Q5: What is the name of the deployment for dns in the cluster?<< 
+<pre>
+Q5: What is the name of the dns deployment in the cluster?<< 
 =~= coredns
+</pre>
