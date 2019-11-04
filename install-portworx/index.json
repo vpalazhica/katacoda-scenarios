@@ -37,8 +37,8 @@
     "finish": {
       "text": "finish.md"
     }
-  },
-  "assets": {
+    },
+    "assets": {
       "host01": [
         {
           "file": "px-etcd.yaml",
@@ -46,11 +46,10 @@
         }
       ]
     },
-  "environment": {
+    "environment": {
     "uilayout": "terminal"
-  },
-  "backend": {
+    },
+    "backend": {
     "imageid": "kubernetes-cluster-4node-running"
-  }
+    }
 }
-
