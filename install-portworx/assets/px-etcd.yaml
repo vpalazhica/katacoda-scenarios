@@ -6,6 +6,7 @@ metadata:
   name: px-etcd
   namespace: kube-system
 spec:
+  nodeName: node03
   containers:
   - command:
     - etcd
