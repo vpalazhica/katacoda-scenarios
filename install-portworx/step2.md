@@ -4,9 +4,10 @@ The KVDB can be built-in / portworx managed for small clusters OR we can set up 
 
 Note: A sample etcd deployment manifest file is already provided in the default directory on the master. 
 
-# Update the YAML file with the ip address of node03 and create the deploymen
+Update the YAML file with the ip address of node03 and create the deploymen
 
-#Name: px-etcd
-#Status: Running
+# Name: px-etcd
+# Status: Running
+# Node: node03
 
-`kubectl -n kube-system get pods px-etcd`{{execute}}
+`kubectl -n kube-system get pods px-etcd -o wide`{{execute}}
