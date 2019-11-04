@@ -39,16 +39,7 @@
     },
     "assets": {
       "host01": [
-        {
-          "file": "px-etcd.yaml",
-          "target": "/root/"
-        }
-      ],
-      "master": [
-        {
-          "file": "px-etcd.yaml",
-          "target": "/root/"
-        }
+         {"file": "px-etcd.yaml", "target": "/root/", "chmod": "+x"}
       ]
     }
     },
