@@ -44,7 +44,14 @@
           "file": "px-etcd.yaml",
           "target": "/root/"
         }
+      ],
+      "master": [
+        {
+          "file": "px-etcd.yaml",
+          "target": "/root/"
+        }
       ]
+
     },
     "environment": {
     "uilayout": "terminal"
