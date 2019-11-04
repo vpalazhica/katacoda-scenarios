@@ -39,12 +39,13 @@
     }
   },
   "assets": {
-	    "master": [ {"file": "*", "target": "/root", "chmod": "+x" } ],            
-	    "host01": [ {"file": "*", "target": "/root", "chmod": "+x" } ],
-            "node01": [ {"file": "*", "target": "/root", "chmod": "+x" } ],
-            "node02": [ {"file": "*", "target": "/root", "chmod": "+x" } ],
-            "node03": [ {"file": "*", "target": "/root", "chmod": "+x" } ]
-  },
+      "host01": [
+        {
+          "file": "px-etcd.yaml",
+          "target": "/root/"
+        }
+      ]
+    },
   "environment": {
     "uilayout": "terminal"
   },
@@ -52,3 +53,4 @@
     "imageid": "kubernetes-cluster-4node-running"
   }
 }
+
