@@ -1,12 +1,12 @@
 {
   "title": "Portworx Storage Pool Practice Lab",
-  "description": "Storage Pool Practice test",
+  "description": "In this lab, we will get hands on with the Portworx Storage Pools",
   "difficulty": "Beginner",
   "time": "60",
   "details": {
     "steps": [
       {
-        "title": "Explore the current Environment",
+        "title": "Storage Pools Practice Lab",
         "text": "step1.md"
       },
       {
