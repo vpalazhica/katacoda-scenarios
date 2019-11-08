@@ -1,34 +1,33 @@
 {
   "title": "install-portworx",
-  "description": "Lab to set up portworx cluster on an existing K8s cluster",
+  "description": "Storage Pool Practice test",
   "difficulty": "Beginner",
   "time": "60",
   "details": {
     "steps": [
       {
-        "title": "Explore the PortWorx Cluster",
+        "title": "Explore the current Environment",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Create a new storage Pool",
         "text": "step2.md",
 	"verify": "step-2-verify.sh"
       },
       {
-        "title": "Step 3",
-        "text": "step3.md"
+        "title": "Update the IO_PRIORITY",
+        "text": "step3.md",
+	"verify": "step-3-verify.sh"
+
       },
       {
-        "title": "Step 4",
+        "title": "Identify the RAID Level",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
-        "text": "step5.md"
-      },
-      {
-        "title": "Step 6",
-        "text": "step6.md"
+        "title": "Add Labels to the Pool",
+        "text": "step5.md",
+	"verify":"step-5-verify.sh"
       }
     ],
     "intro": {
