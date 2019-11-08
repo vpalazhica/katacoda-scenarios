@@ -14,7 +14,7 @@ Hint: Check for Storage Nodes using pxctl status command.
 () 1.1
 
 Hint:
-`ssh -o strictHostKeyChecking=no node01 --version`{{execute}}
+`ssh -o strictHostKeyChecking=no node01 pxctl --version`{{execute}}
 
 
 # Storage Pools
