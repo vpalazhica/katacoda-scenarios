@@ -47,6 +47,6 @@
     "uilayout": "terminal"
     },
     "backend": {
-    "imageid": "portworx-cluster-running:1.13"
+    "imageid": "portworx-kubernetes-running:1.13"
     }
 }
