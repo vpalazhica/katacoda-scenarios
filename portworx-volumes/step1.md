@@ -8,7 +8,7 @@ Hint: Check for Storage Nodes using pxctl status command.
 `ssh -o strictHostKeyChecking=no node01 pxctl status`{{execute}}
 
 
->>Q2: What is the version of Kubernetes installed in this environment? << 
+>>Q2: What is the version of Portworx installed in this environment? << 
 () 2.0 
 (*) 2.2
 () 1.1
