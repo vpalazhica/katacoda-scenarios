@@ -12,12 +12,12 @@
       {
         "title": "Create a new storage Pool",
         "text": "step2.md",
-	"verify": "step-2-verify.sh"
+	"verify": "step2-verify.sh"
       },
       {
         "title": "Update the IO_PRIORITY",
         "text": "step3.md",
-	"verify": "step-3-verify.sh"
+	"verify": "step3-verify.sh"
 
       },
       {
@@ -27,7 +27,7 @@
       {
         "title": "Add Labels to the Pool",
         "text": "step5.md",
-	"verify":"step-5-verify.sh"
+	"verify":"step5-verify.sh"
       }
     ],
     "intro": {
