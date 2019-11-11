@@ -1,0 +1,26 @@
+{
+    "title": "Portworx Storage Pool Practice Lab",
+    "description": "Storage Pool Practice test",
+    "noindex": true,
+    "details": {
+        "steps": [
+            {
+                "title": "Storage Pool Quiz",
+                "text": "step1.md"
+            },
+            {
+                "title": "Create a new storage pool",
+                "text": "step2.md",
+                "answer": "step2-verify.sh"	
+            }
+        ]
+    },
+    "environment": {
+        "hideintro": true,
+        "hidefinish": true,
+        "uilayout": "terminal"
+    },
+    "backend": {
+        "imageid": "portworx-cluster-running:1.13"
+    }
+}
