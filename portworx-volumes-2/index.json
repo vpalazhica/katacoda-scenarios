@@ -11,7 +11,7 @@
             {
                 "title": "Create a new storage pool",
                 "text": "step2.md",
-                "answer": "step2-verify.sh"	
+                "verify": "step2-verify.sh"	
             }
         ]
     },
