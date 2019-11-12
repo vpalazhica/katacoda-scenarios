@@ -25,10 +25,17 @@
         "text": "step4.md"
       },
       {
-        "title": "Verify Installation",
+        "title": "Start Services",
         "text": "step5.md",
 	"verify":"step5-verify.sh"
+      },
+      {
+        "title": "Verify Installation",
+        "text": "step6.md",
+        "verify":"step6-verify.sh"
       }
+
+
     ],
     "intro": {
       "text": "intro.md"
