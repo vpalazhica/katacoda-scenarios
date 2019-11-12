@@ -1,8 +1,12 @@
 >>Install a ETCD container on master node<<
 
-`export IP=$(hostname -I | awk '{print $1}') \
+Install on the node as a docker container:
 
-docker run -d --net=host -p 4001:2379 \
+`export IP=$(hostname -I | awk '{print $1}')`{{execute}} 
+
+Container exposed to host port 4001:
+
+`docker run -d --net=host -p 4001:2379 \
    --volume=/var/lib/px-etcd:/etcd-data \
    --name etcd quay.io/coreos/etcd /usr/local/bin/etcd \
    --data-dir=/etcd-data --name node1 \
