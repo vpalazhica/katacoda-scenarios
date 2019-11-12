@@ -1,0 +1,52 @@
+{
+  "title": "Portworx Volumes Practice Lab",
+  "description": "In this lab, we will get hands on with the creating, updating and inspecting PX volumes",
+  "difficulty": "Beginner",
+  "time": "60",
+  "details": {
+    "steps": [
+      {
+        "title": "Inspect existing Volumes",
+        "text": "step1.md"
+      },
+      {
+        "title": "Create a new storage Pool",
+        "text": "step2.md",
+	"verify": "step2-verify.sh"
+      },
+      {
+        "title": "Update the IO_PRIORITY",
+        "text": "step3.md",
+	"verify": "step3-verify.sh"
+
+      },
+      {
+        "title": "Identify the RAID Level",
+        "text": "step4.md"
+      },
+      {
+        "title": "Add Labels to the Pool",
+        "text": "step5.md",
+	"verify":"step5-verify.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "/tmp/create-vols.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+         {"file": "*", "target": "/tmp/", "chmod": "+x"}
+      ]
+    }
+    },
+    "environment": {
+    "uilayout": "terminal"
+    },
+    "backend": {
+    "imageid": "portworx-kubernetes-running:1.13"
+    }
+}
