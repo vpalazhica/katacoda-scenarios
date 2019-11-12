@@ -27,14 +27,14 @@ Hint:
 ()  4
 
 
->>Q5: What is the State of the three volumes?
+>>Q5: What is the State of the three volumes? <<
 () Mounted
 () Unmounted
 () Attached
 (*) Detached
 
 
->>Q6: Which Pool do these volumes belong to?
+>>Q6: Which Pool do these volumes belong to?<<
 () Pool 1
 () Pool HIGH IO
 () Pool 0 
