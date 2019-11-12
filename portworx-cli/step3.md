@@ -2,11 +2,11 @@ PXCTL Service Commands
 
 
 >>Q1: Which of the below are valid PXCTL service command?<< 
-(*) pool
-() volume
-(*) maintenance
-(*) kvdb
-() cluster
+[*] pool
+[] volume
+[*] maintenance
+[*] kvdb
+[] cluster
 
 Hint: Use the --help flag to see the command options.
 `ssh -o strictHostKeyChecking=no node01 pxctl service --help`{{execute}}

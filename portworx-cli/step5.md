@@ -2,10 +2,10 @@ PXCTL Cluster Commands
 
 
 >>Q1: Which of the following are valid pxctl cluster commands << 
-() decommision
-() add
-(*) pair
-(*) inspect
+[] decommision
+[] add
+[*] pair
+[*] inspect
 
 Hint:
 `ssh -o strictHostKeyChecking=no node01 pxctl cluster --help`{{execute}}
