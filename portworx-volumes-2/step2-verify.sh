@@ -1,1 +1,1 @@
-ssh -o strictHostKeyChecking=no node01 pxctl service pool show  | grep -q "Pool ID: 1" &&  echo "done"
+[ -d /home/scrapbook/tutorial/.git ] && echo "done"
