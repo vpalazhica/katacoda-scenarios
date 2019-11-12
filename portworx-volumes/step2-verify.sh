@@ -1,1 +1,1 @@
-ssh -o strictHostKeyChecking=no node01 pxctl service pool show  | grep -q "Pool ID: 1" && (( $(ssh -o strictHostKeyChecking=no node01 pxctl service pool show  | grep  "Pool ID:" | wc -l) == "2" )) && echo "done"
+ssh -o strictHostKeyChecking=no root@node01 "[ \`pxctl service pool show 2>/dev/null | grep "Pool ID:" | wc -l\` -eq '2' ] && echo \"done\""
