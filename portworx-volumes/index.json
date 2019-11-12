@@ -39,6 +39,7 @@
     "assets": {
       "host01": [
          {"file": "px-etcd.yaml", "target": "/root/", "chmod": "+x"},
+	 {"file": "poolcheck.sh", "target": "/root/", "chmod": "+x"},
 	 {"file": "px-spec.yaml", "target": "/root/", "chmod": "+x"}
       ]
     }
