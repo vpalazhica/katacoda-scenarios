@@ -1,1 +1,1 @@
-ssh root@node01 '[ pxctl volume list | grep usr_vol ] && echo "done"'
+ssh root@node01 '[[ $(pxctl volume list | grep user_vol) ]] && echo "done"'
