@@ -26,3 +26,8 @@ Hint:
 ()  2
 ()  4
 
+>>Q5: What is the State of the three volumes?
+() Mounted
+() Unmounted
+() Attached
+(*) Detached
