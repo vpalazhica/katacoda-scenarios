@@ -12,4 +12,4 @@ Pre-Requisites for Installation on a Stand Alone Docker Host
 
 KVDB: Please have a clustered key-value database (etcd or consul) installed and ready. We will install this in the next step.
 
-`STORAGE: At least one free unformatted partition/ disk drive. We will make use of /dev/vdb to create our very first storage pool.(Done)`
+`STORAGE: At least one free unformatted partition/ disk drive. We will make use of /dev/vda5 to create our very first storage pool.(Done)`
