@@ -26,8 +26,18 @@ Hint:
 ()  2
 ()  4
 
+
 >>Q5: What is the State of the three volumes?
 () Mounted
 () Unmounted
 () Attached
 (*) Detached
+
+
+>>Q6: Which Pool do these volumes belong to?
+() Pool 1
+() Pool HIGH IO
+() Pool 0 
+() Pool SSD
+
+
