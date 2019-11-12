@@ -46,6 +46,7 @@
     "uilayout": "terminal"
     },
     "backend": {
-    "imageid": "kubernetes-cluster-4node-running"
+    "trainingid": "portworx-kubernetes-running",	    
+    "imageid": "portworx-kubernetes"
     }
 }
