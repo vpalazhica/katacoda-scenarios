@@ -1,1 +1,1 @@
-ssh root@node01 '[[ ! $(pxctl volume list | grep local_volume) ]] && echo "done"'
+ssh root@node01 '[[ ! $(pxctl volume list | grep new_vol) ]] && echo "done"'

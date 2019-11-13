@@ -1,1 +1,1 @@
->>Q8: Delete the volume called local_volume?<<
+>>Q8: Delete the volume called new_vol?<<
