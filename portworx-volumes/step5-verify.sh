@@ -1,1 +1,1 @@
-ssh -o strictHostKeyChecking=no node01 pxctl service pool show  | grep -A5  "Pool ID: 1"  | grep -q "environment=Development" &&  echo "done"
+ssh root@node01 '[[ $(pxctl volume inspect ha_volume | grep Label | grep env=qa) ]] && echo "done"'

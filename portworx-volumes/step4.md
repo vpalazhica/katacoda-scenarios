@@ -1,4 +1,1 @@
->>Q9: What is the RAID Level set to Pool 0 on node01?<<
-() 0
-() 10
-() 1
+>>Q9: Update the volume 'local_volume' and set the property shared to 'True'<<
