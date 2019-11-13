@@ -27,7 +27,7 @@
       {
         "title": "Add Labels to the Pool",
         "text": "step5.md",
-	"verify":"step5-verify.sh"
+	"verify": "step5-verify.sh"
       }
     ],
     "intro": {

@@ -28,27 +28,27 @@
       {
         "title": "Add Labels to the volume",
         "text": "step5.md",
-	"verify":"step5-verify.sh"
+	"verify": "step5-verify.sh"
       },
       {
         "title": "Mount the volume on host node03",
         "text": "step6.md",
-        "verify":"step6-verify.sh"
+        "verify": "step6-verify.sh"
       },
       {
         "title": "Add data to the mount",
         "text": "step7.md",
-        "verify":"step7-verify.sh"
+        "verify": "step7-verify.sh"
       },
       {
         "title": "Mount on another host",
         "text": "step8.md",
-        "verify":"step8-verify.sh"
+        "verify": "step8-verify.sh"
       },
       {
         "title": "Volume Detach",
         "text": "step9.md",
-        "verify":"step9-verify.sh"
+        "verify": "step9-verify.sh"
       }
     ],
     "intro": {
