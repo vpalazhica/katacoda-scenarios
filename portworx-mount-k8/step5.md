@@ -1,19 +1,12 @@
-PXCTL Cluster Commands
+>> Q6: What is the state of the new pod?<<
+(*) Pending
+() Running
+() Completed
+() Started
 
 
->>Q1: Which of the following are valid pxctl cluster commands << 
-[] decommision
-[] add
-[*] pair
-[*] inspect
-
-Hint:
-`ssh -o strictHostKeyChecking=no node01 pxctl cluster --help`{{execute}}
-
-
->>Q2: What is the GossipPort used in the cluster?<< 
-=== 9002
-
-Hint: Use --json flag with pxctl cluster list OR pxctl status
-
-
+>> Q7: Why is it in this state?<<
+(*) Storage Class is not shared
+() Volume is dynamically created
+() Persistent Volume was not created
+() We did not attach volume to host
