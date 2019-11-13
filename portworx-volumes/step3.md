@@ -1,1 +1,1 @@
->>Q8: Delete the volume called testvol?<<
+>>Q8: Delete the volume called local_volume?<<
