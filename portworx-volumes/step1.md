@@ -1,7 +1,7 @@
 We have created a few volumes for you to explore.
 
 >>Q1: How many volumes are created in this cluster?<< 
-=== 3
+=== 4
 
 Hint: Check for Storage Nodes using pxctl status command.
 `ssh -o strictHostKeyChecking=no node01 pxctl volume list`{{execute}}
@@ -27,7 +27,7 @@ Hint:
 ()  4
 
 
->>Q5: What is the State of the three volumes? <<
+>>Q5: What is the current State of the volumes? <<
 () Mounted
 () Unmounted
 () Attached
