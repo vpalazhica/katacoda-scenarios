@@ -39,7 +39,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
+    "uilayout": "terminal-terminal",
     "uimessage1": "\u001b[32mBrought to you by kodekloud.com\u001b[m\r\n",
     "showdashboard": true,
     "hidefinish": true,
