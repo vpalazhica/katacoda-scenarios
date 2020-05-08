@@ -1,5 +1,6 @@
-sleep 2
-ssh root@host01 "touch /tmp/load-quiz.out"
-ssh root@host01 "chmod 755 /tmp/load-quiz.sh; /tmp/load-quiz.sh > /tmp/load-quiz0new.out"
-# ifconfig
-# chmod 755 /tmp/load-quiz.sh; /tmp/load-quiz.sh > /tmp/load-quiz.out
+sleep 10
+curl --output /dev/null --silent --head --fail www.google.com
+if [ $? -eq 0 ] 
+then
+systemctl poweroff
+fi
