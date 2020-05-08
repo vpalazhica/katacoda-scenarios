@@ -5,26 +5,7 @@
   "private": "true",
   "time": "30 minutes",
   "details": {
-    "assets": {
-      "client": [
-        {
-          "file": "load-quiz.sh",
-          "target": "/tmp/"
-        },{
-          "file": "wait-script.sh",
-          "target": "/tmp/"
-        }
-      ],
-      "host01": [
-        {
-          "file": "load-quiz.sh",
-          "target": "/tmp/"
-        },{
-          "file": "wait-script.sh",
-          "target": "/tmp/"
-        }
-      ]
-    },
+    "assets": {},
     "steps": [{
       "title": "Commands",
       "text": "steps/1/text.md"
